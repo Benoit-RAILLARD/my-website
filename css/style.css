@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&family=Roboto:wght@300&display=swap');
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/container.css");
+@import url("components/card.css");
+
+
+
+body {
+	font-family: 'Meow Script', cursive;
+	font-size: 18px;
+	background-color:lightgoldenrodyellow;
+	text-align: center;
+}
+
+h1,h2,h3 {
+
+	font-family:'Roboto',sans-serif;
+	font-size: bold;
+}
+a{
+	text-decoration: none;
+}
+
+
+@media (max-width: 960px) {
+  
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+
+  .container {
+    width: 300px;
+  }
+}

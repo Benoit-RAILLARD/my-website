@@ -1,0 +1,24 @@
+.banner {
+	background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url(https://ae01.alicdn.com/kf/HTB1LRqChcnI8KJjSsziq6z8QpXaw/Women-Ladies-Thick-Warm-Wool-Cashmere-Soft-Solid-Casual-Warm-Thick-Socks-Winter-Blue-Pink-Purple.jpg);
+	color:white;
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;
+}
+
+.banner h1 {
+	color: white;
+	font-size: 50px;
+}
+
+.banner h2 {
+	color: white;
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.8;
+	margin-bottom: 40px;
+}
+
+.banner p {
+	padding-bottom: 10px;
+}
